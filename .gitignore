@@ -1,28 +1,14 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#include <iostream>
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int main(){
+	int n1, n2, s, lixo;
+	cout<<"Informe um numero: ";
+	cin>>n1;
+	cout<<"\nInforme outro numero: ";
+	cin>>n2;
+	s = n1+n2;
+	cout<<"\nA soma entre os valores";cout <<" "; cout << n1;cout <<" "; cout <<" e "; cout <<n2;cout <<" "; cout <<" e igual a"; cout <<" "; cout << s;
+	return 0;
+}
